@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Curriculum extends Hoja implements Imprimible{
 
-    private Persona persona;
-    private String carrera;
-    private List<String> experiencia;
+    private final Persona persona;
+    private final String carrera;
+    private final List<String> experiencia;
 
     public Curriculum(Persona persona, String carrera, String contenido) {
         super(contenido);
@@ -21,7 +21,6 @@ public class Curriculum extends Hoja implements Imprimible{
         return this;
     }
 
-    @Override
     public String imprimir() {
         StringBuilder sb = new StringBuilder();
         sb.append(persona).append("\n")

@@ -1,4 +1,4 @@
-package org.vega.poointerfaces.imprenta.modelo;
+package org.aguzman.poointerfaces.imprenta.modelo;
 
 abstract public class Hoja {
     protected String contenido;
@@ -7,4 +7,5 @@ abstract public class Hoja {
         this.contenido = contenido;
     }
 
+    abstract public String imprimir();
 }
