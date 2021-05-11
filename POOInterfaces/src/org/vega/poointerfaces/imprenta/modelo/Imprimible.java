@@ -1,5 +1,7 @@
 package org.vega.poointerfaces.imprenta.modelo;
 
 public interface Imprimible {
-    public String imprimir();
+    default String imprimir(){
+        return "imprimiendo";
+    }
 }
