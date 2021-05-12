@@ -1,55 +1,24 @@
 package org.vega.poointerfaces.repositorio.repositorio;
 
-
 import org.vega.poointerfaces.repositorio.modelo.Cliente;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
-public class ClienteListRepositorio implements OrdenablePaginableCrudRepositorio {
+public class ClienteListRepositorio extends AbstractListRepositorio<Cliente> {
 
-
-    private List<Cliente> dataSourse;
-
-    public ClienteListRepositorio() {
-        this.dataSourse = new ArrayList<>();
-    }
 
     @Override
-    public List<Cliente> listar() {
-        return this.dataSourse;
-    }
-
-    @Override
-    public Cliente porId(Integer id) {
-        Cliente c = null;
-        for (Cliente cli : this.dataSourse) {
-            if (cli.getId().equals(id)) {
-                c = cli;
-                break;
-            }
-        }
-        return c;
-    }
-
-    @Override
-    public void crear(Cliente cliente) {
-        this.dataSourse.add(cliente);
-    }
-
-    @Override
-    public void editar(Cliente clienteAct) {
-        Cliente c = this.porId(clienteAct.getId());
-        c.setNombre(clienteAct.getNombre());
-        c.setApellido(clienteAct.getApellido());
+    public void editar(Cliente cliente) {
+        Cliente c = this.porId(cliente.getId());
+        c.setNombre(cliente.getNombre());
+        c.setApellido(cliente.getApellido());
     }
 
     @Override
     public void eliminar(Integer id) {
-        Cliente c = this.porId(id);
-        this.dataSourse.remove(c);
+
     }
+
 
     @Override
     public List<Cliente> listar(String campo, Direccion dir) {
@@ -79,15 +48,5 @@ public class ClienteListRepositorio implements OrdenablePaginableCrudRepositorio
             }
         });
         return listaOrdenada;
-    }
-
-    @Override
-    public List<Cliente> listar(int desde, int hasta) {
-        return dataSourse.subList(desde, hasta);
-    }
-
-    @Override
-    public int totalCount() {
-        return this.dataSourse.size();
     }
 }
