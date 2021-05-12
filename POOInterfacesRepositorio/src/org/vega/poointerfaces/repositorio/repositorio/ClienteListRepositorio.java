@@ -1,13 +1,13 @@
 package org.vega.poointerfaces.repositorio.repositorio;
 
-import org.vega.poointerfaces.repositorio.CrudRepositorio;
+
 import org.vega.poointerfaces.repositorio.modelo.Cliente;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ClienteListRepositorio implements CrudRepositorio, OrdenebleRepositorio, PaginableRepositorio {
+public class ClienteListRepositorio implements OrdenablePaginableCrudRepositorio {
 
 
     private List<Cliente> dataSourse;
@@ -39,10 +39,10 @@ public class ClienteListRepositorio implements CrudRepositorio, OrdenebleReposit
     }
 
     @Override
-    public void editar(Cliente cliente) {
-        Cliente c = this.porId(cliente.getId());
-        c.setNombre(cliente.getNombre());
-        c.setApellido(cliente.getApellido());
+    public void editar(Cliente clienteAct) {
+        Cliente c = this.porId(clienteAct.getId());
+        c.setNombre(clienteAct.getNombre());
+        c.setApellido(clienteAct.getApellido());
     }
 
     @Override
@@ -53,57 +53,41 @@ public class ClienteListRepositorio implements CrudRepositorio, OrdenebleReposit
 
     @Override
     public List<Cliente> listar(String campo, Direccion dir) {
-        /*dataSourse.sort(new Comparator<Cliente>() {
+        List<Cliente> listaOrdenada = new ArrayList<>(this.dataSourse);
+
+        listaOrdenada.sort(new Comparator<Cliente>() {
+
             @Override
             public int compare(Cliente a, Cliente b) {
-                int resultado=0;
-                if (dir==Direccion.ASC){
-                    switch (campo){
-                        case "id"->
-                                resultado=a.getId().compareTo(b.getId());
-                        case "nombre"->
-                                resultado=a.getNombre().compareTo(b.getNombre());
-                        case "apellido"->
-                                resultado=a.getApellido().compareTo(b.getApellido());
-                    }
-                }else if (dir==Direccion.DESC){
-                    switch (campo){
-                        case "id"->
-                                resultado=b.getId().compareTo(a.getId());
-                        case "nombre"->
-                                resultado=b.getNombre().compareTo(a.getNombre());
-                        case "apellido"->
-                                resultado=b.getApellido().compareTo(a.getApellido());
-                    }
+                int resultado = 0;
+                if (dir==Direccion.ASC) {
+                    resultado = this.ordenar(campo, a, b);
+                } else if (dir==Direccion.DESC) {
+                    resultado = this.ordenar(campo, b, a);
                 }
                 return resultado;
             }
-        });*/
 
-        dataSourse.sort((a, b) -> {
-                    int resultado = 0;
-                    if (dir==Direccion.ASC) {
-                        switch (campo) {
-                            case "id" -> resultado = a.getId().compareTo(b.getId());
-                            case "nombre" -> resultado = a.getNombre().compareTo(b.getNombre());
-                            case "apellido" -> resultado = a.getApellido().compareTo(b.getApellido());
-                        }
-                    } else if (dir==Direccion.DESC) {
-                        switch (campo) {
-                            case "id" -> resultado = b.getId().compareTo(a.getId());
-                            case "nombre" -> resultado = b.getNombre().compareTo(a.getNombre());
-                            case "apellido" -> resultado = b.getApellido().compareTo(a.getApellido());
-                        }
-                    }
-                    return resultado;
+            private int ordenar(String campo, Cliente a, Cliente b) {
+                int resultado = 0;
+                switch (campo) {
+                    case "id" -> resultado = a.getId().compareTo(b.getId());
+                    case "nombre" -> resultado = a.getNombre().compareTo(b.getNombre());
+                    case "apellido" -> resultado = a.getApellido().compareTo(b.getApellido());
                 }
-        );
-        return this.dataSourse;
-
+                return resultado;
+            }
+        });
+        return listaOrdenada;
     }
 
     @Override
     public List<Cliente> listar(int desde, int hasta) {
-        return dataSourse.subList(desde,hasta);
+        return dataSourse.subList(desde, hasta);
+    }
+
+    @Override
+    public int totalCount() {
+        return this.dataSourse.size();
     }
 }
