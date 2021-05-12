@@ -1,7 +1,7 @@
 package org.vega.generics;
 
-import org.vega.poointerfaces.repositorio.modelo.Cliente;
-import org.vega.poointerfaces.repositorio.modelo.ClientePremium;
+import org.vega.poointerfaces.modelo.Cliente;
+import org.vega.poointerfaces.modelo.ClientePremium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
