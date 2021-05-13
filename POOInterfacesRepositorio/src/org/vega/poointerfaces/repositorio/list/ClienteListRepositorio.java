@@ -3,6 +3,7 @@ package org.vega.poointerfaces.repositorio.list;
 import org.vega.poointerfaces.modelo.Cliente;
 import org.vega.poointerfaces.repositorio.AbstractListRepositorio;
 import org.vega.poointerfaces.repositorio.Direccion;
+import org.vega.poointerfaces.repositorio.excepciones.AccesoDatosException;
 
 import java.util.*;
 
@@ -10,7 +11,7 @@ public class ClienteListRepositorio extends AbstractListRepositorio<Cliente> {
 
 
     @Override
-    public void editar(Cliente cliente) {
+    public void editar(Cliente cliente) throws AccesoDatosException {
         Cliente c = this.porId(cliente.getId());
         c.setNombre(cliente.getNombre());
         c.setApellido(cliente.getApellido());

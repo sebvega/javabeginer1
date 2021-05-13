@@ -1,6 +1,6 @@
 package org.vega.poointerfaces.modelo;
 
-public class Cliente extends BaseEntity{
+public class Cliente extends BaseEntity {
 
     private String nombre;
     private String apellido;

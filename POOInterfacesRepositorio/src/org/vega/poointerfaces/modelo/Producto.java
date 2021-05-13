@@ -1,6 +1,6 @@
 package org.vega.poointerfaces.modelo;
 
-public class Producto  extends BaseEntity{
+public class Producto  extends BaseEntity {
     private String descripcion;
     private Double precio;
 

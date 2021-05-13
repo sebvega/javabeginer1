@@ -1,6 +1,8 @@
 package org.vega.poointerfaces.repositorio;
 
 import org.vega.poointerfaces.modelo.BaseEntity;
+import org.vega.poointerfaces.repositorio.excepciones.EscrituraAccesoDatosException;
+import org.vega.poointerfaces.repositorio.excepciones.LecturaAccesoDatoException;
 
 import java.util.*;
 
@@ -19,7 +21,10 @@ public abstract class AbstractListRepositorio<T extends BaseEntity> implements O
     }
 
     @Override
-    public T porId(Integer id) {
+    public T porId(Integer id) throws LecturaAccesoDatoException{
+        if (id==null||id<=0){
+            throw new LecturaAccesoDatoException("id invalido, debe ser > 0");
+        }
         T c = null;
         for (T cli : this.dataSourse) {
             if (cli.getId().equals(id)) {
@@ -27,17 +32,23 @@ public abstract class AbstractListRepositorio<T extends BaseEntity> implements O
                 break;
             }
         }
+        if (c==null){
+            throw new LecturaAccesoDatoException("No existe este registro con id: "+id);
+        }
         return c;
     }
 
     @Override
-    public void crear(T t) {
+    public void crear(T t) throws EscrituraAccesoDatosException {
+        if (t==null){
+            throw new EscrituraAccesoDatosException("error al insertar un objeto null");
+        }
         this.dataSourse.add(t);
     }
 
 
     @Override
-    public void eliminar(Integer id) {
+    public void eliminar(Integer id)throws LecturaAccesoDatoException {
         this.dataSourse.remove(this.porId(id));
     }
 

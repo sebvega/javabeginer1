@@ -3,6 +3,7 @@ package org.vega.poointerfaces.repositorio.list;
 import org.vega.poointerfaces.repositorio.AbstractListRepositorio;
 import org.vega.poointerfaces.repositorio.Direccion;
 import org.vega.poointerfaces.modelo.Producto;
+import org.vega.poointerfaces.repositorio.excepciones.AccesoDatosException;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -10,7 +11,7 @@ import java.util.List;
 
 public class ProductoListRepositorio extends AbstractListRepositorio<Producto> {
     @Override
-    public void editar(Producto producto) {
+    public void editar(Producto producto) throws AccesoDatosException {
         Producto p=porId(producto.getId());
         p.setDescripcion(producto.getDescripcion());
         p.setPrecio(producto.getPrecio());
