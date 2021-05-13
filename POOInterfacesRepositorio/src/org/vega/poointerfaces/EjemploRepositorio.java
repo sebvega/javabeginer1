@@ -4,6 +4,7 @@ import org.vega.poointerfaces.repositorio.Direccion;
 import org.vega.poointerfaces.repositorio.OrdenablePaginableCrudRepositorio;
 import org.vega.poointerfaces.modelo.Cliente;
 import org.vega.poointerfaces.repositorio.excepciones.EscrituraAccesoDatosException;
+import org.vega.poointerfaces.repositorio.excepciones.RegistroDuplicadoAccesoDatosExceptions;
 import org.vega.poointerfaces.repositorio.list.ClienteListRepositorio;
 import org.vega.poointerfaces.repositorio.excepciones.AccesoDatosException;
 import org.vega.poointerfaces.repositorio.excepciones.LecturaAccesoDatoException;
@@ -46,6 +47,10 @@ public class EjemploRepositorio {
             cliOrderDESC.forEach(System.out::println);
 
             System.out.println("total de elementos: " + repo.totalCount());
+
+        }catch (RegistroDuplicadoAccesoDatosExceptions e){
+            System.out.println("Registro duplicado = " + e.getMessage());
+            e.printStackTrace();
 
         }catch (LecturaAccesoDatoException e) {
             System.out.println("lectura = " + e.getMessage());
