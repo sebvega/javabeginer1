@@ -6,7 +6,8 @@ import java.util.*;
 
 public class ETreeSetComparable {
     public static void main(String[] args) {
-        Set<Alumno> sa = new TreeSet<>((a,b)-> a.getNombre().compareTo(b.getNombre()));
+        //Set<Alumno> sa = new TreeSet<>((a,b)-> a.getNombre().compareTo(b.getNombre()));
+        Set<Alumno> sa = new TreeSet<>(Comparator.comparing(Alumno::getNombre));
         sa.add(new Alumno("miguel", 3));
         sa.add(new Alumno("paco", 4));
         sa.add(new Alumno("julio", 7));
@@ -14,5 +15,7 @@ public class ETreeSetComparable {
         sa.add(new Alumno("lala", 2));
         sa.add(new Alumno("ximena", 7));
         System.out.println("sa = " + sa);
+
+
     }
 }
