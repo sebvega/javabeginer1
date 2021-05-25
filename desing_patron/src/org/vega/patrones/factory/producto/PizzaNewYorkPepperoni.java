@@ -2,8 +2,8 @@ package org.vega.patrones.factory.producto;
 
 import org.vega.patrones.factory.PizzaProducto;
 
-public class PizzaNewyorkPeperoni extends PizzaProducto {
-    public PizzaNewyorkPeperoni() {
+public class PizzaNewYorkPepperoni extends PizzaProducto {
+    public PizzaNewYorkPepperoni() {
         super();
         nombre="Pizza peperoni NewYork";
         masa="masa muyida";

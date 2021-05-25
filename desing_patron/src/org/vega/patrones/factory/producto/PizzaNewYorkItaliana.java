@@ -6,8 +6,8 @@ public class PizzaNewYorkItaliana extends PizzaProducto {
     public PizzaNewYorkItaliana() {
         super();
         nombre="Pizza Italiana NewYork";
-        masa="masa gruesa";
-        salsa="pasta de tomate";
+        masa = "masa gruesa";
+        salsa = "pasta de tomate";
         ingrediente.add("queso doble crema");
         ingrediente.add("aceitunas");
         ingrediente.add("jamon");

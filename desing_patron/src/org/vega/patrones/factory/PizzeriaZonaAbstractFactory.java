@@ -3,8 +3,8 @@ package org.vega.patrones.factory;
 abstract public class PizzeriaZonaAbstractFactory {
 
     public PizzaProducto ordenarPizza(String tipo) {
-        PizzaProducto pizza = crearPiza(tipo);
-        System.out.println("fabricando la pizza " + pizza.getNombre());
+        PizzaProducto pizza = crearPizza(tipo);
+        System.out.println("-----------------fabricando la pizza " + pizza.getNombre()+"-------------------");
         pizza.preparar();
         pizza.cocinar();
         pizza.cortar();
@@ -12,5 +12,5 @@ abstract public class PizzeriaZonaAbstractFactory {
         return pizza;
     }
 
-    abstract PizzaProducto crearPiza(String tipo);
+    abstract PizzaProducto crearPizza(String tipo);
 }

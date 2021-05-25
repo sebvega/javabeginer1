@@ -2,24 +2,18 @@ package org.vega.patrones.factory;
 
 import org.vega.patrones.factory.producto.PizzaNewYorkItaliana;
 import org.vega.patrones.factory.producto.PizzaNewYorkVegetariana;
-import org.vega.patrones.factory.producto.PizzaNewyorkPeperoni;
+import org.vega.patrones.factory.producto.PizzaNewYorkPepperoni;
 
 public class PizzeriaNewYorkFactory extends PizzeriaZonaAbstractFactory {
     @Override
-    PizzaProducto crearPiza(String tipo) {
-        PizzaProducto producto = null;
-        switch (tipo) {
-            case "vegetariana":
-                producto = new PizzaNewYorkVegetariana();
-                break;
-            case "peperoni":
-                producto = new PizzaNewyorkPeperoni();
-                break;
-            case "italiana":
-                producto = new PizzaNewYorkItaliana();
-                break;
-        }
-        return null;
+    PizzaProducto crearPizza(String tipo) {
+        PizzaProducto producto = switch (tipo) {
+            case "vegetariana" -> new PizzaNewYorkVegetariana();
+            case "pepperoni" -> new PizzaNewYorkPepperoni();
+            case "italiana" -> new PizzaNewYorkItaliana();
+            default -> null;
+        };
+        return producto;
     }
 
 }

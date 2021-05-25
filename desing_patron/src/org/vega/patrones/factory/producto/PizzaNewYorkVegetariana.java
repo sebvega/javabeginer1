@@ -6,9 +6,9 @@ public class PizzaNewYorkVegetariana extends PizzaProducto {
 
     public PizzaNewYorkVegetariana() {
         super();
-        nombre="Pizza vegetariana NewYork";
-        masa="masa integral vegana";
-        salsa="salsa de carnes";
+        nombre = "Pizza vegetariana NewYork";
+        masa = "masa integral vegana";
+        salsa = "salsa de carnes";
         ingrediente.add("queso vegano");
         ingrediente.add("tomate");
         ingrediente.add("aceitunas");
