@@ -46,7 +46,7 @@ public class FileService {
                 sb.append(s.next()).append("\n");
             }
             //s.close();
-              
+
         } catch (IOException e) {
             e.printStackTrace();
         }
