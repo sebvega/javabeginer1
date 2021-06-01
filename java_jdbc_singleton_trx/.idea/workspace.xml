@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d54768c-794c-4b15-9038-5b418d94dcd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_jdbc_singleton_trx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/EjemploJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/EjemploJdbcDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/EjemploJdbcTrx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/EjemploJdbcUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/models/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/models/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/EjemploJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/EjemploJdbcDelete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/EjemploJdbcUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/models/Categoria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/models/Producto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tEPAZf9XQQ2zXaioe2BHuZ1gii" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.vega.java.jdbc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EjemploJdbcTrx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.vega.java.jdbc.EjemploJdbcTrx" />
+      <module name="java_jdbc_singleton_trx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.vega.java.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjemploJdbcTrx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d54768c-794c-4b15-9038-5b418d94dcd6" name="Default Changelist" comment="" />
+      <created>1622331584189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622331584189</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

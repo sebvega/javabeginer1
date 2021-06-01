@@ -4,37 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aa6d848-d1e5-4dd2-9843-61306841a80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/java_jdbc_closed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/java_jdbc_pool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/EjemploJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/EjemploJdbcDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/EjemploJdbcUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/models/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/models/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/repository/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/EjemploJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/EjemploJdbcDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/EjemploJdbcUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/models/Categoria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/models/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
+    <list default="true" id="715d5ad5-a28b-46e4-8ba1-83e78056527a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_jdbc_closed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_jdbc_pool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/EjemploJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/models/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/models/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/CategoriaRepositorioImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/service/CatalogoServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/EjemploJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/models/Categoria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/models/Producto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
@@ -61,17 +60,33 @@
       <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1tEAugPCBmmZGdhvxNpKTlyihug" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1tJW5udeDD5FyxhOgDdmX7hUvLk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -80,18 +95,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\cursos\java\IdeaProjects" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="EjemploJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.vega.java.jdbc.EjemploJdbc" />
-      <module name="java_jdbc_pool" />
+      <module name="java_jdbc_pool_trx" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.vega.java.jdbc.*" />
@@ -111,11 +119,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8aa6d848-d1e5-4dd2-9843-61306841a80a" name="Default Changelist" comment="" />
-      <created>1622324102214</created>
+      <changelist id="715d5ad5-a28b-46e4-8ba1-83e78056527a" name="Default Changelist" comment="" />
+      <created>1622487495353</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622324102214</updated>
+      <updated>1622487495353</updated>
     </task>
     <servers />
   </component>
@@ -129,6 +137,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
