@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25bcebbe-5012-4079-bfec-56f31539ead3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/java_jdbc_closed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/EjemploJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/EjemploJdbcDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/EjemploJdbcUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/models/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/models/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/repository/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/EjemploJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/EjemploJdbcDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/EjemploJdbcUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/models/Categoria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/models/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/main/java/org/vega/unit5app/ejemplos/exceptions/DineroInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/main/java/org/vega/unit5app/ejemplos/models/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/main/java/org/vega/unit5app/ejemplos/models/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/test/java/org/vega/unit5app/ejemplos/models/CuentaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -98,5 +79,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

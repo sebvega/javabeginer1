@@ -5,62 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="715d5ad5-a28b-46e4-8ba1-83e78056527a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_jdbc_closed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_jdbc_pool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/EjemploJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/models/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/models/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/CategoriaRepositorioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/service/CatalogoServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/EjemploJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/models/Categoria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/models/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/java_jdbc_singleton_trx.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/EjemploJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/EjemploJdbcDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/EjemploJdbcTrx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/EjemploJdbcUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/models/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/models/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/repository/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/EjemploJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/EjemploJdbcDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/EjemploJdbcUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/models/Categoria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/models/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/repository/ProductRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/repository/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/org/vega/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/main/java/org/vega/unit5app/ejemplos/exceptions/DineroInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/main/java/org/vega/unit5app/ejemplos/models/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/main/java/org/vega/unit5app/ejemplos/models/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit5_app/src/test/java/org/vega/unit5app/ejemplos/models/CuentaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_closed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_closed/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/CategoriaRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/CategoriaRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vega/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RunManager">
     <configuration name="EjemploJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -132,10 +88,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

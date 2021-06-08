@@ -3,8 +3,7 @@ package org.vega.java.jdbc.repository;
 import org.vega.java.jdbc.models.Categoria;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class CategoriaRepositorioImpl implements Repository<Categoria> {
 
@@ -82,7 +81,7 @@ public class CategoriaRepositorioImpl implements Repository<Categoria> {
     public void eliminar(Long id) throws SQLException {
 
         try (PreparedStatement stmt = conn.prepareStatement("DELETE FROM categorias WHERE id=?")) {
-            stmt.setLong(1,id);
+            stmt.setLong(1, id);
             stmt.executeUpdate();
         }
     }
