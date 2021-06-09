@@ -8,7 +8,10 @@ import java.math.BigDecimal;
 import java.util.Map;
 import java.util.Properties;
 
+
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.*;
+
 
 //@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class CuentaTest {
@@ -214,4 +217,33 @@ class CuentaTest {
     void testEnv() {
 
     }
+
+
+    @Test
+    @DisplayName("probando dev")
+    void testSaldoCuentaDev() {
+        boolean esDev ="dev".equals(System.getProperty("ENV"));
+        assumeTrue(esDev);
+        Cuenta cuenta = new Cuenta("pepe", new BigDecimal("1000.123"));
+        assertNotNull(cuenta.getSaldo());
+        assertEquals(1000.123, cuenta.getSaldo().doubleValue());
+        assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+        assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+    }
+
+    @Test
+    @DisplayName("probando dev 2")
+    void testSaldoCuentaDev2() {
+        boolean esDev ="dev".equals(System.getProperty("ENV"));
+        assumingThat(esDev,()->{                    //esta seccion hace que si la condicion que entra en primer valor esDev existe ejecuta esta seccion en la exprecion lambda, sino existe no la corre
+            Cuenta cuenta = new Cuenta("pepe", new BigDecimal("1000.123"));
+            assertNotNull(cuenta.getSaldo());
+            assertEquals(1000.123, cuenta.getSaldo().doubleValue());
+            assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+            assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+        });
+    }
+
+
+
 }
